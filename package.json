@@ -1,0 +1,37 @@
+{
+  "name": "react-mono-repo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "This is a mono-repo for learning, bundling and publishing NPM packages",
+  "workspaces": [
+    "src/*"
+  ],
+  "scripts": {
+    "start": "lerna run --scope mono-repo-webapp start",
+    "build": "lerna run --scope mono-repo-webapp build",
+    "build:package": "lerna run --scope @noobhead/react-component-library build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noobhead/react-mono-repo.git"
+  },
+  "keywords": [
+    "react",
+    "mono-repo",
+    "npm",
+    "lerna",
+    "typescript",
+    "scss",
+    "mono-repo-example"
+  ],
+  "author": "noobhead",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noobhead/react-mono-repo/issues"
+  },
+  "homepage": "https://github.com/noobhead/react-mono-repo#readme",
+  "devDependencies": {
+    "lerna": "^6.6.1"
+  }
+}

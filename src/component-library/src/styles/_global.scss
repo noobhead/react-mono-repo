@@ -1,0 +1,158 @@
+@use "variables";
+
+* {
+  font-weight: 400;
+  font-size: variables.$font-12;
+  line-height: 1.5;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  line-height: 1.5;
+}
+/*Font Family*/
+:root {
+  //themes variables
+  --primary-color: #E21F1F;
+  --secondary-color: #328EDF;
+  --primary-font-color: #727272;
+  --secondary-font-color: #EE5239;
+}
+
+body {
+  font-family: variables.$font-family;
+  font-weight: 400;
+  font-size: variables.$font-12;
+  line-height: 1.5;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  overflow: auto;
+}
+button:focus-visible {
+  outline: none;
+}
+input,
+button,
+textarea {
+  font-family: variables.$font-family;
+}
+input {
+  outline: none;
+}
+a {
+  text-decoration: none;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: 400;
+  vertical-align: baseline;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/*Heading CSS*/
+h1 {
+  font-size: variables.$font-24;
+  line-height: 2.9rem;
+  font-weight: 700;
+}
+h4 {
+  font-size: variables.$font-16;
+  font-weight: 500;
+}
+p {
+  font-size: variables.$font-14;
+  font-weight: 400;
+}
+/*Heading CSS*/

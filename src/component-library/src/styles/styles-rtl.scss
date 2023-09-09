@@ -1,0 +1,30 @@
+@use "global";
+
+// add RTL styling here
+
+.not-found-illustration path.primary-color{
+  fill: var(--primary-color)
+}
+
+.not-found-illustration path.secondary-color{
+  fill: var(--secondary-color)
+}
+
+.not-found-component-container {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  max-width: 50%;
+  margin: auto;
+}
+
+.not-found-component-content p {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  color: #727272;
+  text-align: center;
+}
+
