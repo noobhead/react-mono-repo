@@ -10,6 +10,7 @@
     "start": "lerna run --scope mono-repo-webapp start",
     "build": "lerna run --scope mono-repo-webapp build",
     "build:package": "lerna run --scope @noobhead/react-component-library build",
+    "publish:package": "lerna run --scope @noobhead/react-component-library publish:npm",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

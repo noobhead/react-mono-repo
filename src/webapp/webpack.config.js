@@ -50,7 +50,7 @@ const config = {
         path.resolve(root_dir, "./node_modules/react")
       ],
       "react-router-dom": [
-        path.resolve(__dirname, "node_modules/react-router-dom"),
+        path.resolve(__dirname, "./node_modules/react-router-dom"),
         path.resolve(root_dir, "./node_modules/react-router-dom")
       ]
     }
