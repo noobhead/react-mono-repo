@@ -1,6 +1,6 @@
 {
   "name": "@noobhead/react-component-library",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "private": false,
   "description": "React Component Library Project demonstrating working with monorepo",
   "main": "lib/index.js",
@@ -17,6 +17,10 @@
     "mono-repo-example",
     "mono-repo-structure"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noobhead/react-mono-repo.git"
+  },
   "author": "noobhead",
   "license": "MIT",
   "publishConfig": {

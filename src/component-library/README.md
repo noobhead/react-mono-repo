@@ -31,4 +31,6 @@ export default function Example() {
 ```
 ## Documentation
 
-Documentation, Github and demo links to be updated soon.
+You can find the source of this package on [Github](https://github.com/noobhead/react-mono-repo.git).
+
+Documentation and demo links to be updated soon.
